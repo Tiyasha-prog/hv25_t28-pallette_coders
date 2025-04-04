@@ -1,3 +1,4 @@
+#server
 import socket
 import threading
 
@@ -52,6 +53,8 @@ def start_server(host='127.0.0.1', port=12345):
 
 if __name__ == "__main__":
     start_server()
+
+#client 
 import socket
 import tkinter as tk
 from tkinter import scrolledtext
